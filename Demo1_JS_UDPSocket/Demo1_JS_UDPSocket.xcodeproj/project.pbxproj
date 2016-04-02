@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF185FB71CA7E519007D54BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FB61CA7E519007D54BE /* main.m */; };
+		CF185FBA1CA7E519007D54BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FB91CA7E519007D54BE /* AppDelegate.m */; };
+		CF185FBD1CA7E519007D54BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FBC1CA7E519007D54BE /* ViewController.m */; };
+		CF185FC01CA7E519007D54BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF185FBE1CA7E519007D54BE /* Main.storyboard */; };
+		CF185FC31CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF185FC11CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodeld */; };
+		CF185FC51CA7E519007D54BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF185FC41CA7E519007D54BE /* Assets.xcassets */; };
+		CF185FC81CA7E519007D54BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF185FC61CA7E519007D54BE /* LaunchScreen.storyboard */; };
+		CF185FD31CA7E519007D54BE /* Demo1_JS_UDPSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FD21CA7E519007D54BE /* Demo1_JS_UDPSocketTests.m */; };
+		CF185FDE1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FDD1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.m */; };
+		CF185FF01CA7E5D4007D54BE /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CF185FEF1CA7E5D4007D54BE /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF185FCF1CA7E519007D54BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF185FAA1CA7E519007D54BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF185FB11CA7E519007D54BE;
+			remoteInfo = Demo1_JS_UDPSocket;
+		};
+		CF185FDA1CA7E519007D54BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF185FAA1CA7E519007D54BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF185FB11CA7E519007D54BE;
+			remoteInfo = Demo1_JS_UDPSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF185FB21CA7E519007D54BE /* Demo1_JS_UDPSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1_JS_UDPSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF185FB61CA7E519007D54BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF185FB81CA7E519007D54BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF185FB91CA7E519007D54BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF185FBB1CA7E519007D54BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF185FBC1CA7E519007D54BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF185FBF1CA7E519007D54BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF185FC21CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo1_JS_UDPSocket.xcdatamodel; sourceTree = "<group>"; };
+		CF185FC41CA7E519007D54BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF185FC71CA7E519007D54BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF185FC91CA7E519007D54BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF185FCE1CA7E519007D54BE /* Demo1_JS_UDPSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1_JS_UDPSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF185FD21CA7E519007D54BE /* Demo1_JS_UDPSocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_JS_UDPSocketTests.m; sourceTree = "<group>"; };
+		CF185FD41CA7E519007D54BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF185FD91CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1_JS_UDPSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF185FDD1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_JS_UDPSocketUITests.m; sourceTree = "<group>"; };
+		CF185FDF1CA7E519007D54BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF185FEE1CA7E5D4007D54BE /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		CF185FEF1CA7E5D4007D54BE /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF185FAF1CA7E519007D54BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FCB1CA7E519007D54BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FD61CA7E519007D54BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF185FA91CA7E519007D54BE = {
+			isa = PBXGroup;
+			children = (
+				CF185FB41CA7E519007D54BE /* Demo1_JS_UDPSocket */,
+				CF185FD11CA7E519007D54BE /* Demo1_JS_UDPSocketTests */,
+				CF185FDC1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests */,
+				CF185FB31CA7E519007D54BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF185FB31CA7E519007D54BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF185FB21CA7E519007D54BE /* Demo1_JS_UDPSocket.app */,
+				CF185FCE1CA7E519007D54BE /* Demo1_JS_UDPSocketTests.xctest */,
+				CF185FD91CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF185FB41CA7E519007D54BE /* Demo1_JS_UDPSocket */ = {
+			isa = PBXGroup;
+			children = (
+				CF185FEE1CA7E5D4007D54BE /* AsyncUdpSocket.h */,
+				CF185FEF1CA7E5D4007D54BE /* AsyncUdpSocket.m */,
+				CF185FB81CA7E519007D54BE /* AppDelegate.h */,
+				CF185FB91CA7E519007D54BE /* AppDelegate.m */,
+				CF185FBB1CA7E519007D54BE /* ViewController.h */,
+				CF185FBC1CA7E519007D54BE /* ViewController.m */,
+				CF185FBE1CA7E519007D54BE /* Main.storyboard */,
+				CF185FC41CA7E519007D54BE /* Assets.xcassets */,
+				CF185FC61CA7E519007D54BE /* LaunchScreen.storyboard */,
+				CF185FC91CA7E519007D54BE /* Info.plist */,
+				CF185FC11CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodeld */,
+				CF185FB51CA7E519007D54BE /* Supporting Files */,
+			);
+			path = Demo1_JS_UDPSocket;
+			sourceTree = "<group>";
+		};
+		CF185FB51CA7E519007D54BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF185FB61CA7E519007D54BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF185FD11CA7E519007D54BE /* Demo1_JS_UDPSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF185FD21CA7E519007D54BE /* Demo1_JS_UDPSocketTests.m */,
+				CF185FD41CA7E519007D54BE /* Info.plist */,
+			);
+			path = Demo1_JS_UDPSocketTests;
+			sourceTree = "<group>";
+		};
+		CF185FDC1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF185FDD1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.m */,
+				CF185FDF1CA7E519007D54BE /* Info.plist */,
+			);
+			path = Demo1_JS_UDPSocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF185FB11CA7E519007D54BE /* Demo1_JS_UDPSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF185FE21CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocket" */;
+			buildPhases = (
+				CF185FAE1CA7E519007D54BE /* Sources */,
+				CF185FAF1CA7E519007D54BE /* Frameworks */,
+				CF185FB01CA7E519007D54BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo1_JS_UDPSocket;
+			productName = Demo1_JS_UDPSocket;
+			productReference = CF185FB21CA7E519007D54BE /* Demo1_JS_UDPSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF185FCD1CA7E519007D54BE /* Demo1_JS_UDPSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF185FE51CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocketTests" */;
+			buildPhases = (
+				CF185FCA1CA7E519007D54BE /* Sources */,
+				CF185FCB1CA7E519007D54BE /* Frameworks */,
+				CF185FCC1CA7E519007D54BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF185FD01CA7E519007D54BE /* PBXTargetDependency */,
+			);
+			name = Demo1_JS_UDPSocketTests;
+			productName = Demo1_JS_UDPSocketTests;
+			productReference = CF185FCE1CA7E519007D54BE /* Demo1_JS_UDPSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF185FD81CA7E519007D54BE /* Demo1_JS_UDPSocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF185FE81CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocketUITests" */;
+			buildPhases = (
+				CF185FD51CA7E519007D54BE /* Sources */,
+				CF185FD61CA7E519007D54BE /* Frameworks */,
+				CF185FD71CA7E519007D54BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF185FDB1CA7E519007D54BE /* PBXTargetDependency */,
+			);
+			name = Demo1_JS_UDPSocketUITests;
+			productName = Demo1_JS_UDPSocketUITests;
+			productReference = CF185FD91CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF185FAA1CA7E519007D54BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF185FB11CA7E519007D54BE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF185FCD1CA7E519007D54BE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF185FB11CA7E519007D54BE;
+					};
+					CF185FD81CA7E519007D54BE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF185FB11CA7E519007D54BE;
+					};
+				};
+			};
+			buildConfigurationList = CF185FAD1CA7E519007D54BE /* Build configuration list for PBXProject "Demo1_JS_UDPSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF185FA91CA7E519007D54BE;
+			productRefGroup = CF185FB31CA7E519007D54BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF185FB11CA7E519007D54BE /* Demo1_JS_UDPSocket */,
+				CF185FCD1CA7E519007D54BE /* Demo1_JS_UDPSocketTests */,
+				CF185FD81CA7E519007D54BE /* Demo1_JS_UDPSocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF185FB01CA7E519007D54BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF185FC81CA7E519007D54BE /* LaunchScreen.storyboard in Resources */,
+				CF185FC51CA7E519007D54BE /* Assets.xcassets in Resources */,
+				CF185FC01CA7E519007D54BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FCC1CA7E519007D54BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FD71CA7E519007D54BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF185FAE1CA7E519007D54BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF185FBD1CA7E519007D54BE /* ViewController.m in Sources */,
+				CF185FBA1CA7E519007D54BE /* AppDelegate.m in Sources */,
+				CF185FF01CA7E5D4007D54BE /* AsyncUdpSocket.m in Sources */,
+				CF185FC31CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodeld in Sources */,
+				CF185FB71CA7E519007D54BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FCA1CA7E519007D54BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF185FD31CA7E519007D54BE /* Demo1_JS_UDPSocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF185FD51CA7E519007D54BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF185FDE1CA7E519007D54BE /* Demo1_JS_UDPSocketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF185FD01CA7E519007D54BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF185FB11CA7E519007D54BE /* Demo1_JS_UDPSocket */;
+			targetProxy = CF185FCF1CA7E519007D54BE /* PBXContainerItemProxy */;
+		};
+		CF185FDB1CA7E519007D54BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF185FB11CA7E519007D54BE /* Demo1_JS_UDPSocket */;
+			targetProxy = CF185FDA1CA7E519007D54BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF185FBE1CA7E519007D54BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF185FBF1CA7E519007D54BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF185FC61CA7E519007D54BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF185FC71CA7E519007D54BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF185FE01CA7E519007D54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF185FE11CA7E519007D54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF185FE31CA7E519007D54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo1_JS_UDPSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF185FE41CA7E519007D54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo1_JS_UDPSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF185FE61CA7E519007D54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo1_JS_UDPSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1_JS_UDPSocket.app/Demo1_JS_UDPSocket";
+			};
+			name = Debug;
+		};
+		CF185FE71CA7E519007D54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo1_JS_UDPSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1_JS_UDPSocket.app/Demo1_JS_UDPSocket";
+			};
+			name = Release;
+		};
+		CF185FE91CA7E519007D54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo1_JS_UDPSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo1_JS_UDPSocket;
+			};
+			name = Debug;
+		};
+		CF185FEA1CA7E519007D54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo1_JS_UDPSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-UDPSocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo1_JS_UDPSocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF185FAD1CA7E519007D54BE /* Build configuration list for PBXProject "Demo1_JS_UDPSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF185FE01CA7E519007D54BE /* Debug */,
+				CF185FE11CA7E519007D54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF185FE21CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF185FE31CA7E519007D54BE /* Debug */,
+				CF185FE41CA7E519007D54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF185FE51CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF185FE61CA7E519007D54BE /* Debug */,
+				CF185FE71CA7E519007D54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF185FE81CA7E519007D54BE /* Build configuration list for PBXNativeTarget "Demo1_JS_UDPSocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF185FE91CA7E519007D54BE /* Debug */,
+				CF185FEA1CA7E519007D54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF185FC11CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF185FC21CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodel */,
+			);
+			currentVersion = CF185FC21CA7E519007D54BE /* Demo1_JS_UDPSocket.xcdatamodel */;
+			path = Demo1_JS_UDPSocket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF185FAA1CA7E519007D54BE /* Project object */;
+}
